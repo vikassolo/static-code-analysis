@@ -20,9 +20,13 @@ Apply fixes and re-run analysis tools until the code is clean.
 
 🛠️ Tools Used
 Tool	Purpose
+
 Pylint	Detects logical and style issues.
+
 Flake8	Ensures PEP 8 style compliance.
+
 Bandit	Finds security vulnerabilities.
+
 
 Install all tools using:
 pip install pylint flake8 bandit
@@ -41,9 +45,14 @@ flake8 inventory_system.py > flake8_report.txt
 
 Project Structure
 .
-├── inventory_system.py        # Fixed version of the code
-├── pylint_report.txt           # Output of Pylint
-├── flake8_report.txt           # Output of Flake8
-├── bandit_report.txt           # Output of Bandit
-├── reflection.md               # Reflection answers
-└── README.md                   # This file
+├── inventory_system.py        
+
+├── pylint_report.txt           
+
+├── flake8_report.txt           
+
+├── bandit_report.txt           
+
+├── reflection.md               
+
+└── README.md                   
