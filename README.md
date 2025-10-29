@@ -18,8 +18,7 @@ File handling and input validation
 
 Apply fixes and re-run analysis tools until the code is clean.
 
-🛠️ Tools Used
-Tool	Purpose
+🛠️ Tools Used       Tool	Purpose
 
 Pylint	Detects logical and style issues.
 
@@ -44,6 +43,7 @@ flake8 inventory_system.py > flake8_report.txt
 
 
 Project Structure
+
 .
 ├── inventory_system.py        
 
